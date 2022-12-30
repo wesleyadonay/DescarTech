@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DescarTech"
+        tools:targetApi="31">
+        <activity
+            android:name=".ZonaDaMataWebView"
+            android:exported="false" />
+        <activity
+            android:name=".ZonaDaMata"
+            android:exported="false" />
+        <activity
+            android:name=".RegiaoMetropolitanaWebView"
+            android:exported="false" />
+        <activity
+            android:name=".RegiaoMetropolitana"
+            android:exported="false" />
+        <activity
+            android:name=".AgresteWebView"
+            android:exported="false" />
+        <activity
+            android:name=".Agreste"
+            android:exported="false" />
+        <activity
+            android:name=".PontosDescarte"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos10"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos9"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos8"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos7"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos6"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos5"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos4"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos3"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos2"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos1"
+            android:exported="false" />
+        <activity
+            android:name=".Mandamentos"
+            android:exported="false" />
+        <activity
+            android:name=".Saude"
+            android:exported="false" />
+        <activity
+            android:name=".Ambiente"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
